@@ -8,6 +8,7 @@ Group:		Applications/WWW
 Source0:	http://dev.mwat.de/dw/syntax_plugin_lists.zip
 # Source0-md5:	3048488fcfe5b1c62edf6357eb9cad58
 URL:		http://www.dokuwiki.org/plugin:actionlink
+BuildRequires:	unzip
 Requires:	dokuwiki >= 20050713
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
